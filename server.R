@@ -1,7 +1,6 @@
 
 library(shiny)
 
-options(shiny.error = browser)
 
 shinyServer(function(input, output,session) {
   
@@ -60,7 +59,6 @@ shinyServer(function(input, output,session) {
           else {
             dat <- data()
             if (sum(dat) == 100) {
-              h1("Individualized Risk Assessment of Prostate Cancer")
               br()
               out <- HTML(calcSmiley(unlist(dat)))
             }

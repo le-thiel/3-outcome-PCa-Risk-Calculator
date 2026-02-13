@@ -1,0 +1,18 @@
+# R session / history
+.Rhistory
+.RData
+.Ruserdata
+
+# RStudio
+.Rproj.user/
+
+
+Thumbs.db
+*.tmp
+*.log
+
+# Shiny / R markdown caches 
+rsconnect/
+renv/library/
+renv/staging/
+

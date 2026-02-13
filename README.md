@@ -37,6 +37,8 @@ This repository focuses on the Shiny prototype. During thesis work, the underlyi
 ---
 
 ## Run locally
+**Requirements:** R (>= 4.0 recommended) and the following packages: `shiny`, `shinyBS`
+
 1. Clone this repository.
 2. Open the project in your preferred R environment (e.g., RStudio or VS Code with an R extension).
 3. Launch the app, for example:
