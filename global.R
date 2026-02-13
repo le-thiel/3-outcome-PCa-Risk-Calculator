@@ -1,5 +1,4 @@
 
-require(knitr)
 library(shinyBS)
 
 

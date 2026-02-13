@@ -43,7 +43,8 @@ body {
 /* subtle clinical accent bar */
 .warning_text::before {
   content: "";
-  position: absolute;
+  position: relative;
+  padding-left: 22px;
   left: 0;
   top: 10px;
   bottom: 10px;
