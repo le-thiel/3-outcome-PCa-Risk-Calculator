@@ -23,9 +23,6 @@ tooltip_age_en = "Age needs to be between 30 and 90 years."
 
 tooltip_psa_en = "This is the result, in nanograms per mililiter, of the PSA blood test. 0 is not a valid PSA value."
 
-
-#tooltip_dre_en = "Digital Rectal Examination is a test performed by a health care professional in which a gloved finger is placed in the rectum to feel the surface of the prostate. It is normal if the prostate is smooth and soft. It is abnormal if an area of firmness or a nodule is noted."
-
 tooltip_priobiop_en = "Past Negative Biopsy: One or more prior biopsies, all need to be negative."
 
 tooltip_volume_en ="Prostate volume in [ml]. Volume needs to be bigger than 10."
@@ -44,7 +41,7 @@ info_en = HTML("<h1>Information about calculator input</h1>
               <p>This is the result, in nanograms per mililiter, of the PSA blood test.
               PSA has to be above 0 [ng/ml]</p>
               <br>
-              <h4>Prostate Specific Antigen Level (PSA)</h4>
+              <h4>Prostate Volume </h4>
               <p>Prostate volume in [ml]. Volume needs to be bigger than 10.<p>
               <br>
               <h4>Prior Prostate Biopsy</h4>

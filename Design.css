@@ -1,0 +1,106 @@
+/* --- Medical / clinical look tweaks --- */
+
+:root {
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --text: #111827;
+  --muted: #556070;
+
+  --border: rgba(17, 24, 39, 0.12);
+
+  --danger: #b42318;
+  --danger-bg: #fff5f5;
+  --danger-border: rgba(180, 35, 24, 0.30);
+
+  --radius: 12px;
+}
+
+/* More “medical” typography: calmer, less techy */
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+               Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+
+/* Warning / disclaimer callout: larger text, simpler, clinical */
+.warning_text{
+  max-width: 650px;      
+  padding: 16px 18px;
+  margin: 18px 0;
+
+  font-weight: 800;      
+  font-size: 1.25rem;    
+  line-height: 1.45;
+
+  color: #b42318;
+  background-color: #fff5f5;
+  border: 1px solid rgba(180,35,24,0.30);
+  border-radius: 12px;
+}
+
+
+/* subtle clinical accent bar */
+.warning_text::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  bottom: 10px;
+  width: 6px;
+  border-radius: 999px;
+  background: var(--danger);
+  opacity: 0.9;
+   font-size: 1.12rem;
+}
+
+
+
+td.disclaimer {
+  font-size: 1.02rem;
+  line-height: 1.5;
+  text-align: left;
+  color: var(--text);
+}
+
+
+hr {
+  border: none;
+  height: 1px;
+  margin: 18px 0;
+  background: rgba(17, 24, 39, 0.18);
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 16px;
+  max-width: 1200px;
+}
+
+.row-fluid .span4 {
+  max-width: 320px;
+}
+
+
+/* Popover: readable, normal typography */
+.popover {
+  max-width: 420px;
+  width: 420px;              /* optional – nimm raus, wenn es zu starr ist */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+               Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+
+.popover-title {
+  font-size: 1.12rem;
+  font-weight: 700;
+}
+
+.popover-content {
+  font-size: 1.12rem;      
+  line-height: 1.45;         
+  color: #111827;
+
+  white-space: normal;       
+  word-break: normal;
+}
+

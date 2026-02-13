@@ -3,7 +3,7 @@
 library(shiny)
  
 shinyUI(fluidPage(    
-  includeCSS("riskcalc.css"),
+  includeCSS("Design.css"),
     navbarPage(title = "TUM 3-outcome Risk Calculator",
              inverse = T,
              tabPanel("Home",
@@ -40,7 +40,7 @@ shinyUI(fluidPage(
                               h1(""),
                               htmlOutput("smile_en",inline = T),
                               br()), 
-                              HTML("<p>Developed using a cohort from a tertiary-care
+                              HTML(" <br /> <p>Developed using a cohort from a tertiary-care
                                    urology center, where prostate cancer prevalence is high. 
                                    Results may not generalize to other settings and must be interpreted by a clinician!<p>")
                    ),

@@ -1,5 +1,4 @@
 
-options(shiny.reactlog=TRUE)
 library(shiny)
 
 options(shiny.error = browser)
@@ -33,8 +32,8 @@ shinyServer(function(input, output,session) {
       
       else {
       
-        warning(test)
-        warnText("Error")
+        
+        HTML("<h1> Error </h1>")
       }
       
     })
@@ -75,31 +74,7 @@ shinyServer(function(input, output,session) {
     out
   })
   
-  
-#  session$onFlushed(function() {
     
-#    removePopover(session, "age")
-#    addPopover(session, "age", title = "Age", content = tooltip_age_en,
-#               placement = "right", trigger = "hover")
-    
-#    removePopover(session, "psa")
-#    addPopover(session, "psa", title = "PSA", content = tooltip_psa_en,
-#              placement = "right", trigger = "hover")
-    
-#    removePopover(session, "volume")
-#    addPopover(session, "volume", title = "Prostate Volume", content = tooltip_volume_en,
-#               placement = "right", trigger = "hover")
-    
-#    removePopover(session, "priobiop")
-#    addPopover(session, "priobiop", title = "Prior biopsy", content = tooltip_priobiop_en,
-#               placement = "right", trigger = "hover")
-    
-#    removePopover(session, "pirads")
-#    addPopover(session, "pirads", title = "PI-RADS", content = tooltip_pirads_en,
-#               placement = "right", trigger = "hover")
-    
-#  }, once = TRUE)
-  
   
   output$switchTab2 <- renderUI({
     if(input$calcRisk){
