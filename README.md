@@ -1,6 +1,6 @@
 # 3-Outcome PCa Risk Calculator (R Shiny Prototype)
 
-![App screenshot](www/UI-Screenshot.png)  
+![App screenshot](www/UI-Screenshot.jpeg)  
 *Screenshot of the Shiny prototype interface.*
 
 An **R Shiny** prototype for MRI-based prostate cancer risk prediction using a 3-outcome multinomial logistic regression model with the outcome groups:
