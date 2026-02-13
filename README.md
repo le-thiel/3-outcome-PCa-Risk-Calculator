@@ -43,3 +43,9 @@ This repository focuses on the Shiny prototype. During thesis work, the underlyi
    - `shiny::runApp()`
 
 ---
+
+## Acknowledgements
+- The probability visualization using repeated icons (one icon per percentage point) is **inspired by** the PBCG / PCPT risk calculator interface.
+
+# References
+- Ankerst DP, Straubinger J, Selig K, et al. *A Contemporary Prostate Biopsy Risk Calculator Based on Multiple Heterogeneous Cohorts*. European Urology. 2018;74:197–203. doi:10.1016/j.eururo.2018.05.003
